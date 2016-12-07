@@ -1,15 +1,164 @@
-<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
-text that will be ignored by the computer! -->
-<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<!DOCTYPE html>
+<!-- Udacity Introduction to Programming Nanodegree, Stage 1 Project - Eli Weir -->
+
 <html>
-  <head> <!-- The head tag includes important information about the page -->
-    <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
-    This will allow the browser to display certain characters (such as non-Roman letters) correctly.
-    You should include this line in the head of all of your webpages. -->
-    <title>My Notes</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
-    <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
-  </head>
+
+    <!-- Meta-data, links to external resources -->
+    <head>
+        <meta charset="UTF-8">
+        <title>IPDN Notes - Eli Weir</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"><!-- Font for Headings, etc -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> <!-- Body font -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/18b1d3b0da.css"> <!-- Icons -->
+        <link rel="stylesheet" href="normalize.css"> <!-- Reset CSS across browsers -->
+        <link rel="stylesheet" href="style.css"> <!-- Custom CSS -->
+    </head>
+
+    <!-- Rendered content -->
+    <body>
+
+        <!-- Title and other info at the top of the page -->
+        <header>
+            <div class="flex max-width">
+                <div class="left">
+                    <h1>Eli's Notes</h1>
+                    <h2>Introduction to Programming Nanodegree</h2>
+                </div>
+                <div class="header-pic right">
+                    <img src="images/eli.png" alt="Picture of Eli" width="150">
+                </div>
+            </div>
+        </header>
+
+        <!-- All the notes -->
+        <div class="notes max-width">
+
+            <!-- Contents, with links to lessons -->
+            <section class="toc" id="toc">
+                <div class="flex underline">
+                    <h1 class="left">Table of Contents</h1>
+                </div>
+                <nav>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="#lesson-1">
+                                <span class="fa-li fa fa-caret-right" aria-hidden="true"></span>
+                                Lesson 1 - Basics of the Web and HTML
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#lesson-2">
+                                <span class="fa-li fa fa-caret-right" aria-hidden="true"></span>
+                                Lesson 2 - Creating a Structured Document
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#lesson-3">
+                                <span class="fa-li fa fa-caret-right" aria-hidden="true"></span>
+                                Lesson 3 - Adding CSS Style and HTML Structure
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- Lesson 1 notes -->
+            <section class="lesson" id="lesson-1">
+                <div class="flex underline">
+                    <h1 class="left">Lesson 1 - Basics of the Web and HTML</h1>
+                    <div class="right">
+                        <a href="#toc"><span class="fa fa-caret-up" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+                <section class="concept">
+                    <h1>The Web</h1>
+                    <p>
+                        The <em>web</em> is a collection of computers that communicate with each other.
+                        When someone views a <em>web page</em> like
+                        <a href="www.udacity.com">www.udacity.com</a>, their <em>browser</em> sends an
+                        <em>HTTP Request</em> (Hyper-Text Transfer Protocol) to a <em>server</em>. The
+                        server send the appropriate HTML document to the user's computer and the browser
+                        <em>interprets</em> the page and displays it.
+                    </p>
+                </section>
+                <section class="concept">
+                    <h1>HTML</h1>
+                    <p>
+                        <em>HTML</em> stands for Hypertext Markup Language. <em>HTML documents</em> form
+                        the majority of the content on the web. HTML documents contain textual content
+                        describing "what you see" and <em>markup</em> describing "what it looks like".
+                    </p>
+                </section>
+                <section class="concept">
+                    <h1>Tags &amp; Elements</h1>
+                    <p>
+                        HTML documents consist of <em>HTML elements</em>. When writing HTML, we tell browsers how to render elements using
+                        <em>HTML tags</em>. Each element consists of an opening tag, a closing tag, and content. Tags may also have <em>attributes</em> that give further instruction to the browser.
+                    </p>
+                </section>
+                <section class="concept">
+                    <h1>Computers Are literal</h1>
+                    <p>
+                        Computers interpret instructions literally. This means that any intruction given to a computer needs to be unambiguous. Many bugs arise from ambiguous instructions which have been interpreted with unexpected results.
+                    </p>
+                </section>
+                <section class="concept">
+                    <h1>Inline &amp; Block Elements</h1>
+                    <p>
+                        HTML elements can be either <em>inline</em> or <em>block</em>. Block elements form an "invisible box" around their content, which can be manipulated to position content.
+                    </p>
+                </section>
+            </section>
+
+            <!-- Lesson 2 notes -->
+            <section class="lesson" id="lesson-2">
+                <div class="flex underline">
+                    <h1 class="left">Lesson 2 - Creating a Structured Document</h1>
+                    <div class="right">
+                        <a href="#toc"><span class="fa fa-caret-up" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+                <div class="concept">
+                    <h1>Concept</h1>
+                    <p>
+                        Description. <!-- TODO: Add Lesson 2 content -->
+                    </p>
+                </div>
+            </section>
+
+            <!-- Lesson 3 notes -->
+            <section class="lesson" id="lesson-3">
+                <div class="flex underline">
+                    <h1 class="left">Lesson 3 - Adding CSS Style and HTML Structure</h1>
+                    <div class="right">
+                        <a href="#toc"><span class="fa fa-caret-up" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+                <div class="concept">
+                    <h1>Concept</h1>
+                    <p>
+                        Description. <!-- TODO: Add Lesson 3 content -->
+                    </p>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Contact info, social media links at the bottom of the page -->
+        <footer>
+            <div class="footer-content max-width flex">
+                <address>
+                    &copy; <a href="mailto:eli@eliweir.com" aria-label="Email">Eli Weir</a>, 2016
+                </address>
+                <nav>
+                    <a href="http://www.linkedin.com/in/eliweir/" aria-label="LinkedIn"><span class="fa fa-lg fa-linkedin" aria-hidden="true"></span></a>
+                    <a href="http://www.twitter.com/eliweir/" aria-label="Twitter"><span class="fa fa-lg fa-twitter" aria-hidden="true"></span></a>
+                    <a href="http://www.github.com/eliweir/" aria-label="GitHub"><span class="fa fa-lg fa-github" aria-hidden="true"></span></a>
+                    <a href="https://profiles.udacity.com/u/eliweir" aria-label="Udacity Profile"><span class="fa fa-lg fa-id-badge" aria-hidden="true"></span></a>
+                </nav>
+            </div>
+        </footer>
+
+    </body>
+
 </html>
-<body> <!-- The body tag is where the "flesh" of your HTML goes -->
-  <!-- Write your HTML here -->
-</body>
