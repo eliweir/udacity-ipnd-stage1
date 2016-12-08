@@ -3,7 +3,7 @@
 Udacity Introduction to Programming Nanodegree Stage 1 project, using HTML and CSS to render notes for the first 3 lessons.
 
 
-**Requirements**
+##Requirements
 
 1. Use of Syntax: HTML and CSS should be properly formatted and should pass HTML validation and CSS validation tests.
 
@@ -16,11 +16,11 @@ Udacity Introduction to Programming Nanodegree Stage 1 project, using HTML and C
 5. Content Display: Page displays at least 1 image and some text.
 
 
-**Note**
+##Note
 
 I used new HTML5/CSS3 semantic elements such as ``<section>``, `<nav>`, ``<address>``, but in a way that should degrade gracefully in unsupported browsers.
 
 
-**Attributions**
+##Acknowledgements
 
 Thanks to http://github.com/necolas for the use of normalize.css v5.0.0 (under MIT License). Check it out on http://github.com/necolas/normalize.css.
