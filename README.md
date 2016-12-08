@@ -7,7 +7,7 @@ Udacity Introduction to Programming Nanodegree Stage 1 project, using HTML and C
 
 1. Use of Syntax: HTML and CSS should be properly formatted and should pass HTML validation and CSS validation tests.
 
-2. Use of Logical HTML Structure: Content that is logically related should be grouped together within a container element (like a ``<div>`` or ``<span>``). Additionally, all tags should be used for their semantic purpose (ex: don't use a ``<p>``; tag to make a headline).
+2. Use of Logical HTML Structure: Content that is logically related should be grouped together within a container element (like a ``<div>`` or ``<span>``). Additionally, all tags should be used for their semantic purpose (ex: don't use a ``<p>`` tag to make a headline).
 
 3. Use of HTML Classes and CSS Styling (via linked CSS file): There shouldn't be any unnecessary repetition in your CSS code. Similar HTML elements should have the same class name.
 
