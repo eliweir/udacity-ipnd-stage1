@@ -8,6 +8,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
+    background-color: #fafafa;
+    color: #757575;
+}
+
 section,
 article,
 aside,
@@ -16,13 +23,6 @@ header,
 nav,
 hgroup {
   display:block;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-    margin: 0 auto;
-    background-color: #fafafa;
-    color: #757575;
 }
 
 h1,
@@ -161,12 +161,14 @@ section h1 {
     padding: 0;
 }
 
-.code {
+.concept code {
     font-family: Courier, sans-serif;
-    color : #000;
-    font-weight: bold;
-    padding-left:  4px;
-    padding-right: 4px;
+    color: #666;
+    padding: 1px 4px;
+    margin: 0 2px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
 
 

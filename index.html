@@ -92,20 +92,26 @@
                 <section class="concept">
                     <h1>Tags &amp; Elements</h1>
                     <p>
-                        HTML documents consist of <em>HTML elements</em>. When writing HTML, we tell browsers how to render elements using
-                        <em>HTML tags</em>. Each element consists of an opening tag, a closing tag, and content. Tags may also have <em>attributes</em> that give further instruction to the browser.
+                        HTML documents consist of <em>HTML elements</em>. When writing HTML, we tell
+                        browsers how to render elements using <em>HTML tags</em>. Each element consists of
+                        an opening tag, a closing tag, and content. For example <code>&lt;h1&gt;I am a heading&lt;h1&gt;</code>. Tags may also have <em>attributes</em> that
+                        give further instruction to the browser.
                     </p>
                 </section>
                 <section class="concept">
                     <h1>Computers Are literal</h1>
                     <p>
-                        Computers interpret instructions literally. This means that any intruction given to a computer needs to be unambiguous. Many bugs arise from ambiguous instructions which have been interpreted with unexpected results.
+                        Computers interpret instructions literally. This means that any intruction given to a
+                        computer needs to be unambiguous. Many bugs arise from ambiguous instructions which have
+                        been interpreted with unexpected results.
                     </p>
                 </section>
                 <section class="concept">
                     <h1>Inline &amp; Block Elements</h1>
                     <p>
-                        HTML elements can be either <em>inline</em> or <em>block</em>. Block elements form an "invisible box" around their content, which can be manipulated to position content.
+                        HTML elements can be either <code>inline</code> or
+                        <code>block</code>. Block elements form an "invisible box" around their
+                        content, which can be manipulated to position content.
                     </p>
                 </section>
             </section>
@@ -119,9 +125,28 @@
                     </div>
                 </div>
                 <div class="concept">
-                    <h1>Concept</h1>
+                    <h1>The "Tree-like" Structure of HTML</h1>
                     <p>
-                        Description. <!-- TODO: Add Lesson 2 content -->
+                        The <em>"tree-like " structure</em> refers to the fact that HTML elements can have
+                        other elements inside them. This relationship can be drawn as a family tree. In a
+                        browser, this structure renders as a series of nested boxes. There are boxes,
+                        inside boxes, inside boxes ...
+                    </p>
+                </div>
+                <div class="concept">
+                    <h1>The Relationship Between Indented HTML and Boxes</h1>
+                    <p>
+                        When you read an HTML document as text (e.g. source code), you see a line of
+                        changing indentations on the left side of the document. The more indented an element
+                        is, the more deeply nested its corresponding "box" is in the tree.
+                    </p>
+                </div>
+                <div class="concept">
+                    <h1>Using Text Editors For Development</h1>
+                    <p>
+                        Writing HTML/CSS, developers use special text editors like
+                        <a href="http://atom.io">Atom</a>. These editors make development easdier, by
+                        automating tasks and providing contextual reference and support.
                     </p>
                 </div>
             </section>
@@ -135,9 +160,31 @@
                     </div>
                 </div>
                 <div class="concept">
-                    <h1>Concept</h1>
+                    <h1>Avoid Repition - Keep It DRY</h1>
                     <p>
-                        Description. <!-- TODO: Add Lesson 3 content -->
+                        It is important to avoid repetition in your code, in order to avoid errors and
+                        ensure consistency. When developers repeat themselves, they may end up copying and
+                        pasting style attributes into many HTML elements or writing the same code many
+                        times. This can lead to errors when the developer decides to make a change to
+                        something. If they don't make that same change everywhere the repeated code
+                        appears, unexpected problems will arise.
+                    </p>
+                    <p>
+                        For these reasons, it is good practive to make sure that you
+                        <em>Don't Repeat Yourself</em>.
+                    </p>
+                </div>
+                <div class="concept">
+                    <h1>CSS</h1>
+                    <p>
+                        CSS is an abbreviation of <em>Cascading Style Sheets</em>. CSS gives developers a
+                        way to control the style of related HTML elements. This is done by giving similar
+                        HTML elements the same class name and then specifying the style that should apply
+                        to that class.
+                    </p>
+                    <p>
+                        Styles can <em>"cascade"</em> through style sheets (externally referenced files),
+                        elements, and classes
                     </p>
                 </div>
             </section>
